@@ -1,0 +1,496 @@
+/*General Styles */
+
+* {
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+section {
+    padding-top: 70px;
+    padding-bottom: 85px;
+}
+
+h2, h3 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    padding-bottom: 70px;
+    margin: 0;
+}
+
+/*General Styles End */
+
+/*Welcome Styles*/
+
+.welcome-background {
+    background-image: url(../img/welcome-background/pexels-photo235985.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.welcome-caption {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 400;
+    font-family: 'Marcellus SC', serif;
+    font-family: 'Belleza', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel Decorative', cursive;
+    /*font-family: 'Spectral SC', serif;*/
+}
+
+.welcome-caption-container {
+    margin-bottom: 3%;
+}
+
+.crest-photo {
+    height: 100px;
+    width: 100px;
+}
+
+/*.welcome {
+    margin-top: 4%;
+    font-size: 37px;
+    text-align: center;
+    
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Amita', cursive;
+    font-family: 'Cookie', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Spectral SC', serif;
+    font-family: 'Mirza', cursive;
+    font-family: 'Mate SC', serif;
+}*/
+
+.welcome-photo {
+    height: 225px;
+    width: 225px;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.welcome-photo.one {
+    background-image: url(../img/welcome-photo/1.jpg);
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    /* Firefox */
+    -webkit-animation: fadein 5s;
+    /* Safari and Chrome */
+    -o-animation: fadein 5s;
+    /* Opera */
+}
+
+.welcome-photo.two {
+    background-image: url(../img/welcome-photo/_MG_7559.jpg);
+    animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    /* Firefox */
+    -webkit-animation: fadein 4s;
+    /* Safari and Chrome */
+    -o-animation: fadein 4s;
+    /* Opera */
+}
+
+.welcome-photo.three {
+    background-image: url(../img/welcome-photo/IMG_9232.jpg);
+
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    /* Firefox */
+    -webkit-animation: fadein 5s;
+    /* Safari and Chrome */
+    -o-animation: fadein 5s;
+    /* Opera */
+}
+
+.welcome-row-position {
+    padding-top: 9%;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*Welcome Styles End*/
+
+/* Main Menu Styles */
+
+#main-nav {
+    background-color: transparent;
+    border: 0;
+}
+
+
+#main-nav a {
+    color: antiquewhite;
+    text-transform: uppercase;
+    transition: all .3s;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.navbar-default {
+    top: 10%;
+}
+
+#main-nav a:hover {
+    color: black;
+}
+
+
+.nav.navbar-nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+/* Main Menu Styles End */
+
+/*Header Styles*/
+
+.header-wrapper {
+   border: 15px solid antiquewhite;
+}
+
+.header-menu-container {
+    background-image: url(../img/welcome-background/_MG_7706.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 97vh;
+}
+
+
+.logo {
+    width: 100px;
+    height: 800px;
+    position: absolute;
+    bottom: 40%;
+    top: 1%;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.header-menu-container > .header {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Marcellus SC', serif;
+    font-family: 'Belleza', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel Decorative', cursive;
+    color: antiquewhite;
+
+}
+
+.first-letter {
+    color: antiquewhite;
+    font-size: 100px;
+}
+
+.header-menu-container > .slider-images {
+    position: absolute;
+    width: 70%;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+
+.slider-images img {
+    height: 200px; 
+    margin: auto;
+    border-radius: 5%;
+}
+
+/*Header Styles End*/
+
+/*Section Categories Style*/
+
+.categories {
+    
+    /* background-image: url(../img/welcome-background/pexels-photo235985.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    background-color: antiquewhite;
+}
+
+.categories-row-padding {
+    padding: 0 150px 0 150px;
+}
+
+.padding {
+    padding: 0;
+}
+
+.category-container {
+    height: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 8px;
+    border-radius: 2%;
+}
+
+.category-container.color {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    transition: all 0.5s ease;
+}
+
+.category-container.color:hover {
+     filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+
+}
+
+.category-container.grey {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: all 0.5s ease;
+}
+
+.category-container.grey:hover {
+   filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+
+.category-container.one {
+    background-image: url(../img/categories/wladze.jpg); 
+}
+
+.category-container.two {
+    background-image: url(../img/categories/krolowie.jpg);
+}
+
+.category-container.three {
+    background-image: url(../img/categories/galeria.jpg);
+}
+
+.category-container.four {
+    background-image: url(../img/categories/historia.jpg);
+}
+
+.category-container.five {
+    background-image: url(../img/categories/komunikaty.jpg);
+}
+
+.category-container.six {
+    background-image: url(../img/categories/ciekawostki.jpg);
+}
+
+
+.category-text {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    color: antiquewhite;
+    text-align: center;
+}
+/*Section Categories Style End*/
+/*Section Photo Style*/
+.photo {
+    background-color: antiquewhite;
+    padding: 0;
+}
+
+.photo-sword {
+    background-image: url(../img/photo/miecz.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+
+
+
+/*Section Photo Style End*/
+/*Section News Style*/
+.news {
+    background-color: antiquewhite;
+}
+
+.news-background{
+    height: 600px;
+    width: 100%;
+    background-image:url(../img/news/vintage_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    border: 10px solid black;
+    position: relative;
+}
+
+.news-scroll {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.news-text {
+    position: absolute;
+    height: 100%;
+}
+.news-padding {
+    padding-left: 4%;
+}
+
+.news-topic {
+    font-size: 23px;
+    font-weight: 700;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.news-content {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+/*Section News Style End*/
+
+/*Section contact*/
+.section-border {
+    height: 2px;
+    background-color: antiquewhite;
+}
+
+.section-border-line {
+    height: 2px;
+    background-color: black;
+    margin: 0 15px 0 15px;
+}
+
+.contact {
+    background-color: antiquewhite;
+}
+
+.residence {
+    background-image: url(../img/residence/siedziba_zmieniona.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 85%;
+    height: 500px;
+    border-radius: 2%;
+    
+}
+.contact-details .contact-name {
+    font-size: 27px;
+    text-align: center;
+}
+
+.contact-details p{
+    font-size: 20px;
+    text-align: left;
+    margin: 5px;
+}
+
+/*Footer Styles*/
+.content-footer {
+    background-color: black;
+    text-align: center;
+}
+
+.footer-row-padding {
+  padding: 15px 0 15px 0;
+}
+
+.content-footer p {
+    font-size: 21px;
+    color: antiquewhite;
+    margin: 0;
+    
+}
+
+.content-footer .copyright {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+/*Footer Styles End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
